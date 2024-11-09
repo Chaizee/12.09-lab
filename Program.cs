@@ -25,7 +25,7 @@ class Lab
         int a = int.Parse(Console.ReadLine());
         Console.WriteLine("Введите значение переменной b");
         int b = int.Parse(Console.ReadLine());
-        int c = (a + b - Math.Abs(a - b))/2;
+        int c = (a + b + Math.Abs(a - b))/2;
         Console.WriteLine(c);
     }
     
